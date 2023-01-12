@@ -4,9 +4,10 @@ from .models import Article, Scope, Tag
 from django.forms import BaseInlineFormSet
 from django.core.exceptions import ValidationError
 
-@admin.register(Article)
-class ArticleAdmin(admin.ModelAdmin):
+@admin.register(Tag)
+class TagAdmin(admin.ModelAdmin):
     pass
+
 
 class ScopeInlineFormset(BaseInlineFormSet):
     def clean(self):
