@@ -40,10 +40,3 @@ Content-Type: application/json
 # фильтрация по дате
 GET {{baseUrl}}/advertisements/?created_at_before=2023-01-30
 Content-Type: application/json
-
-###
-
-# Удаление объявления 
-DELETE  {{baseUrl}}/advertisements/6/
-Content-Type: application/json
-Authorization: Token fa903ec2b71b41a41c9067254c2c691750f92058

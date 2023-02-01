@@ -13,7 +13,7 @@ class AdvertisementViewSet(ModelViewSet):
     """ViewSet для объявлений."""
 
     queryset = Advertisement.objects.all()
-    serializer_class = AdvertisementSerializerserializer_class = AdvertisementSerializer
+    serializer_class = AdvertisementSerializer
     filterset_class = AdvertisementFilter
     filter_backends = [DjangoFilterBackend]
     throttle_classes = [UserRateThrottle, AnonRateThrottle]
@@ -22,6 +22,6 @@ class AdvertisementViewSet(ModelViewSet):
         """Получение прав для действий."""
         if self.action == "create":
             return [IsAuthenticated()]
-        elif self.action in ["update", "partial_update", "delete"]:
+        elif self.action in ["update", "partial_update"]:
             return [IsAuthenticated(), IsAdvertisementOwner()]
         return []
