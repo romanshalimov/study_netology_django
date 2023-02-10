@@ -15,3 +15,6 @@
 [7. Backend для приложения с объявлениями.](https://github.com/romanshalimov/study_netology_django/tree/main/permissions)
 
 [8. Тестирование Django-приложения с использованием Pytest.](https://github.com/romanshalimov/study_netology_django/tree/main/django-testing)
+
+
+![Удостоверение о повышении квалификации](https://github.com/romanshalimov/study_netology_django/blob/main/certificate_of_professional_development.png)
