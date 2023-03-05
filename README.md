@@ -16,4 +16,4 @@
   </ol>
 </details>
 
-![Удостоверение о повышении квалификации](https://github.com/romanshalimov/study_netology_django/blob/main/certificate_of_professional_development.png)
+![Удостоверение о повышении квалификации](https://github.com/romanshalimov/study_netology_django/blob/main/certificate_of_professional_development.jpg)
